@@ -509,6 +509,10 @@ a:focus {
   position: relative;
 }
 
+.class-info{
+  height: 250px;
+}
+
 .spaceIt{
   line-height: 42px;
   font-size: 22px;
@@ -693,11 +697,14 @@ button#submit-button:hover {
 }
 
 #logo{
-  width: 12%;
+  width: 120px;
 }
 
 #button-it{
   background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: none;
   padding: 10px 10px;
   border-radius: 500px;
@@ -724,6 +731,10 @@ li{
 .indecol{
   display: flex;
   margin-bottom: 50px;
+}
+
+.img-fluid{
+  width: 500px;
 }
 
 .spaceOut{
@@ -787,7 +798,23 @@ li{
   }
 
   .nav-item .nav-link {
-    padding: 6px;
+    padding: 15px;
+  }
+
+  #logo{
+    width: 90px;
+  }
+
+#button-it{
+  margin-top: 20px;
+  padding: 0px 0px;
+}
+
+  #button-it a{
+    text-align: center  ;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
   }
 
   .navbar .social-icon {
@@ -820,5 +847,12 @@ li{
 
   .contact h2 span {
     display: block;
+  }
+
+  #col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
